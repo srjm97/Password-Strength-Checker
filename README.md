@@ -2,24 +2,24 @@
 
 This project is a web-based password strength checker that allows users to enter a password and evaluates its strength based on various criteria. It provides real-time feedback on the strength of the password and visually represents it using a progress bar.
 
-###Demo
+### Demo
 
 Check out the live demo of the project hosted on Firebase: [Password Strength Checker](https://password-strength-checker-1.web.app)
 
-###Features
+### Features
 
 - Password strength evaluation based on criteria such as length, uppercase letters, lowercase letters, numbers, and special characters.
 - Real-time feedback and visual representation of password strength using a progress bar.
 - Password visibility toggle for ease of use.
 - Interactive user interface with clear instructions and criteria list.
 
-###Technologies Used
+### Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 
-###Project Structure
+### Project Structure
 
 The project consists of the following main files:
 
@@ -28,7 +28,7 @@ The project consists of the following main files:
 - script.js: The JavaScript code responsible for checking password strength and updating the UI.
 - README.md: This file, providing project information and documentation.
 
-###Usage
+### Usage
 
 To use the password strength checker, follow these steps:
 
@@ -40,6 +40,6 @@ To use the password strength checker, follow these steps:
 6. The strength evaluation will be updated in real-time as you type or modify the password.
 7. Modify the password to see the visual representation and criteria evaluation change accordingly.
 
-###Customization
+### Customization
 
 You can customize the project by making changes to the HTML, CSS, and JavaScript files according to your requirements. Feel free to modify the styles, add new criteria, or enhance the functionality as needed.
