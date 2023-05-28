@@ -83,7 +83,15 @@ function togglePasswordVisibility() {
   }
 }
 
-const passwordInput = document.getElementById('password-input');
-passwordInput.addEventListener('input', function () {
-  checkPassword(passwordInput);
+document.addEventListener('DOMContentLoaded', function () {
+  const passwordInput = document.getElementById('password-input');
+  passwordInput.addEventListener('input', function () {
+    checkPassword(passwordInput);
+  });
+
+  passwordInput.addEventListener('keyup', function (event) {
+    if (event.key === 'Backspace') {
+      checkPassword(passwordInput);
+    }
+  });
 });
